@@ -1,0 +1,28 @@
+{
+  "name": "HMC Changes",
+  "version": "1.0.0",
+  "authors": [
+    "amanda iaria <amanda@wearehmc.com>"
+  ],
+  "description": "Any Changes for Stowe. I've put them all in one plugin, so that I don't over write theme defaults",
+  "main": "hmcchanges.php",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    
+  }
+}

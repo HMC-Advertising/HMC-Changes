@@ -1,0 +1,38 @@
+@mixin border-radius($r){
+	border-radius: $r;
+	-moz-border-radius:$r ;
+	-webkit-border-radius: $r;
+}
+@mixin transition($t){
+	-webkit-transition: all $t ease;
+	-moz-transition: all $t ease;
+	-ms-transition: all $t ease;
+	-o-transition: all $t ease;
+	transition: all $t ease;
+}
+
+@mixin transform($t){
+	-webkit-transform:scale($t); /* Safari and Chrome */
+    -moz-transform:scale($t); /* Firefox */
+   	-ms-transform:scale($t); /* IE 9 */
+    -o-transform:scale($t); /* Opera */
+    transform:scale($t);
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  iframe{
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  	border: 0;
+  }
+}
