@@ -45,10 +45,7 @@ module.exports = function (grunt){
               files: ['assets/style/sass/{,*/}*.{scss,sass}'],
               tasks: ['compass:dev']
             },
-            php: {
-              files: ['*.php'],
-              tasks : ['phplint']
-            },
+            
             
         },
     rsync: {

@@ -41,14 +41,17 @@ class PageTemplater {
 		
 		// Add a filter to the template include to determine if the page has our
 		// template assigned and return it's path
-		dd_filter(
+		add_filter(
 			'template_include',
 			array( $this, 'view_project_template')
 		);
 		
 		// Add your templates to this array.
 		$this->templates = array(
-			'assets/php/templates/temp-landingv1.php'     => 'Landing Page V1',
+			'assets/php/templates/temp-landingv1.php'     => 'Landing Page V1 ApresSki ',
+			'assets/php/templates/temp-landingv2.php'     => 'Landing Page V2 5Star ',
+			'assets/php/templates/temp-landingv3.php'     => 'Landing Page V3 NextGen ',
+			'assets/php/templates/temp-landingv4.php'     => 'Landing Page V4 ByPass ',
 		);
 	}
 	
