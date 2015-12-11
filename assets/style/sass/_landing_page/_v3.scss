@@ -1,0 +1,271 @@
+#nextgen{
+	&.landingpage{
+		.header{
+			background:url("../../img/tempv3/headerBrand.png")no-repeat;
+			background-size: cover;
+			@include respond(mobile){
+				background-position:center;
+			}
+			height:600px;
+			@include respond(mobile){
+						height:300px;
+					}
+			color:$dred;
+			margin:{
+				top:-40px;
+			}
+			h1{
+				font:{
+					family:$mainFont;
+					size:85px;
+					weight:400;
+				}
+				line-height:85px;
+				margin:{
+					top:40px;
+					bottom:20px;
+				}
+				@include respond(mobile){
+						font-size:30px;
+						margin-top:80px;
+					}
+			}
+			h2{
+				font:{
+					family:$mainFont;
+					weight:400; 
+					
+				}
+				@include respond(mobile){
+						font-size:20px
+					}
+
+			}
+
+		}
+		.brand{
+			background:url("../../img/tempv3/brandBG.png") $w;
+			background-size:cover;
+			background-position:center; 
+			background-repeat:no-repeat;
+			color:$w;
+			height:auto;
+			overflow: auto;
+			border:{
+				bottom:thick solid $w;
+			}
+			padding:{
+				top:50px;
+				bottom:50px;
+			}
+			@include respond(mobile){
+						padding-top:30px;
+					}
+			p{
+				text-align:center;
+				font:{
+					size:20px;
+					weight:400;
+					family:$mainFont;
+				}
+				@include respond(mobile){
+						font-size: 16px;
+					}
+			}
+		}
+		.triangle{
+			text-align:center;
+			margin-top:-6px;
+			height:auto;
+			overflow: auto;
+			img{
+				margin:auto;
+			}
+			@include respond(mobile){
+				display: none;
+			}
+		}
+		.bypass{
+			margin-top:-33px;
+			text-align:center;
+			color:$w;
+			background:url("../../img/tempv3/divBypass.png");
+			background-attachment: fixed;
+			background-size:cover;
+			background-position:center; 
+			height:800px;
+			padding:{
+				top:50px;
+				bottom:50px;
+			}
+			@include respond(mobile){
+				height:auto;
+			}
+			.col-lg-12{
+				margin-top:25px;
+				@include respond(mobile){
+					margin-top: 10px;
+				}
+
+			}
+			h1{
+				font:{
+					family:$mainFont;
+					size:60px;
+					weight:400;
+				}
+				margin:{
+					bottom:20px;
+				}
+				@include respond(mobile){
+						font-size: 20px;
+					}
+			}
+			h2{
+				font:{
+					family:$mainFont;
+					weight:400; 
+				}
+			}
+			p{
+				text-align:center;
+				font:{
+					size:25px;
+					weight:400;
+					family:$mainFont;
+				}
+				padding:{
+					top:50px;
+				}
+				margin:{
+					bottom:50px;
+				}
+				@include respond(mobile){
+					font-size:16px;
+				}
+			}
+
+		}
+		.seize{
+			text-align:center;
+			color:$dg;
+			background:url("../../img/tempv3/divSeize.png");
+			background-size:cover;
+			background-position:center;
+		
+			height:800px;
+			margin-top:-32px;
+			padding:{
+				top:50px;
+				bottom:50px;
+			}
+			@include respond(mobile){
+				height:auto;
+			}
+			.col-lg-12{
+				margin-top:80px;
+				@include respond(mobile){
+					margin-top: 10px;
+				}
+
+			}
+			h1{
+				font:{
+					family:$mainFont;
+					size:60px;
+					weight:400;
+				}
+				color:$red;
+				margin:{
+					bottom:20px;
+				}
+				@include respond(mobile){
+						font-size: 20px;
+					}
+			}
+			h2{
+				font:{
+					family:$mainFont;
+					weight:400; 
+				}
+			}
+			p{
+				text-align:center;
+				font:{
+					size:25px;
+					weight:400;
+					family:$mainFont;
+				}
+				padding:{
+					top:10px;
+				}
+				margin:{
+					bottom:50px;
+				}
+				@include respond(mobile){
+					font-size:16px;
+				}
+				&.note{
+					font-size: 18px;
+					margin-top: 50px;
+				}
+			}
+	}
+		.lodging{ 
+			text-align:center;
+			color:$w;
+			background:url("../../img/tempv3/divLodging.png");
+			background-size:cover;
+			background-attachment: fixed;
+			background-size:center;
+			height:700px;
+			margin-top: -10px;
+			padding:{
+				top:50px;
+				bottom:50px;
+			}
+			//margin-bottom:-90px;
+			@include respond(mobile){
+				height:auto;
+				margin-bottom: -40px;
+			}
+			.col-lg-12{
+				margin-top:100px;
+				@include respond(mobile){ 
+					margin-top:0px;
+				}
+			}
+			h1{
+				font:{
+					family:$mainFont;
+					size:60px;
+					weight:400;
+				}
+				color:$w;
+				margin:{
+					bottom:50px;
+				}
+				@include respond(mobile){
+						font-size: 20px;
+					}
+			}
+			h2{
+				font:{
+					family:$mainFont;
+					weight:400; 
+				}
+			}
+			p{
+				text-align:center;
+				font:{
+					size:20px;
+					weight:400;
+					family:$mainFont;
+				}
+				@include respond(mobile){
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}

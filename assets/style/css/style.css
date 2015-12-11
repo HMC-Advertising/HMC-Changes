@@ -8826,7 +8826,7 @@ button.close {
 }
 /* line 3, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .header {
-  background: url("../../img/headerv1.png") no-repeat;
+  background: url("../../img/tempv1/headerv1.png") no-repeat;
   background-size: cover;
   height: 600px;
   color: #6b3638;
@@ -8873,7 +8873,7 @@ button.close {
 }
 /* line 46, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .brand {
-  background: url("../../img/brandBG.png") #ffffff;
+  background: url("../../img/tempv1/brandBG.png") #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -8924,9 +8924,10 @@ button.close {
   margin-top: -33px;
   text-align: center;
   color: #ffffff;
-  background: url("../../img/divBypass.png");
+  background: url("../../img/tempv1/divBypass.png");
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
   height: 800px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -8937,17 +8938,17 @@ button.close {
     height: auto;
   }
 }
-/* line 102, ../sass/_landing_page/_v1.scss */
+/* line 103, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .bypass .col-lg-12 {
   margin-top: 25px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 102, ../sass/_landing_page/_v1.scss */
+  /* line 103, ../sass/_landing_page/_v1.scss */
   #apriski.landingpage .bypass .col-lg-12 {
     margin-top: 10px;
   }
 }
-/* line 109, ../sass/_landing_page/_v1.scss */
+/* line 110, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .bypass h1 {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
   font-size: 60px;
@@ -8955,17 +8956,17 @@ button.close {
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 109, ../sass/_landing_page/_v1.scss */
+  /* line 110, ../sass/_landing_page/_v1.scss */
   #apriski.landingpage .bypass h1 {
     font-size: 20px;
   }
 }
-/* line 122, ../sass/_landing_page/_v1.scss */
+/* line 123, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .bypass h2 {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
   font-weight: 400;
 }
-/* line 128, ../sass/_landing_page/_v1.scss */
+/* line 129, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .bypass p {
   text-align: center;
   font-size: 25px;
@@ -8975,38 +8976,38 @@ button.close {
   margin-bottom: 50px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 128, ../sass/_landing_page/_v1.scss */
+  /* line 129, ../sass/_landing_page/_v1.scss */
   #apriski.landingpage .bypass p {
     font-size: 16px;
   }
 }
-/* line 147, ../sass/_landing_page/_v1.scss */
+/* line 148, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .seize {
   text-align: center;
   color: #333;
-  background: url("../../img/divLift.png");
+  background: url("../../img/tempv1/divLift.png");
   background-size: cover;
   height: 800px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 147, ../sass/_landing_page/_v1.scss */
+  /* line 148, ../sass/_landing_page/_v1.scss */
   #apriski.landingpage .seize {
     height: auto;
   }
 }
-/* line 160, ../sass/_landing_page/_v1.scss */
+/* line 161, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .seize .col-lg-12 {
   margin-top: 80px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 160, ../sass/_landing_page/_v1.scss */
+  /* line 161, ../sass/_landing_page/_v1.scss */
   #apriski.landingpage .seize .col-lg-12 {
     margin-top: 10px;
   }
 }
-/* line 167, ../sass/_landing_page/_v1.scss */
+/* line 168, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .seize h1 {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
   font-size: 60px;
@@ -9015,17 +9016,17 @@ button.close {
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 167, ../sass/_landing_page/_v1.scss */
+  /* line 168, ../sass/_landing_page/_v1.scss */
   #apriski.landingpage .seize h1 {
     font-size: 20px;
   }
 }
-/* line 181, ../sass/_landing_page/_v1.scss */
+/* line 182, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .seize h2 {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
   font-weight: 400;
 }
-/* line 187, ../sass/_landing_page/_v1.scss */
+/* line 188, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .seize p {
   text-align: center;
   font-size: 25px;
@@ -9035,46 +9036,45 @@ button.close {
   margin-bottom: 50px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 187, ../sass/_landing_page/_v1.scss */
+  /* line 188, ../sass/_landing_page/_v1.scss */
   #apriski.landingpage .seize p {
     font-size: 16px;
   }
 }
-/* line 203, ../sass/_landing_page/_v1.scss */
+/* line 204, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .seize p.note {
   font-size: 18px;
   margin-top: 50px;
 }
-/* line 209, ../sass/_landing_page/_v1.scss */
+/* line 210, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .lodging {
   text-align: center;
   color: #ffffff;
-  background: url("../../img/divLodging.png");
+  background: url("../../img/tempv1/divLodging.png");
   background-size: cover;
   background-attachment: fixed;
   height: 700px;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-bottom: -90px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 209, ../sass/_landing_page/_v1.scss */
+  /* line 210, ../sass/_landing_page/_v1.scss */
   #apriski.landingpage .lodging {
     height: auto;
     margin-bottom: -40px;
   }
 }
-/* line 226, ../sass/_landing_page/_v1.scss */
+/* line 227, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .lodging .col-lg-12 {
   margin-top: 100px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 226, ../sass/_landing_page/_v1.scss */
+  /* line 227, ../sass/_landing_page/_v1.scss */
   #apriski.landingpage .lodging .col-lg-12 {
     margin-top: 0px;
   }
 }
-/* line 232, ../sass/_landing_page/_v1.scss */
+/* line 233, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .lodging h1 {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
   font-size: 60px;
@@ -9083,17 +9083,17 @@ button.close {
   margin-bottom: 50px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 232, ../sass/_landing_page/_v1.scss */
+  /* line 233, ../sass/_landing_page/_v1.scss */
   #apriski.landingpage .lodging h1 {
     font-size: 20px;
   }
 }
-/* line 246, ../sass/_landing_page/_v1.scss */
+/* line 247, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .lodging h2 {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
   font-weight: 400;
 }
-/* line 252, ../sass/_landing_page/_v1.scss */
+/* line 253, ../sass/_landing_page/_v1.scss */
 #apriski.landingpage .lodging p {
   text-align: center;
   font-size: 20px;
@@ -9101,7 +9101,7 @@ button.close {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
 }
 @media only screen and (max-width: 479px) {
-  /* line 252, ../sass/_landing_page/_v1.scss */
+  /* line 253, ../sass/_landing_page/_v1.scss */
   #apriski.landingpage .lodging p {
     font-size: 16px;
   }
@@ -9109,7 +9109,7 @@ button.close {
 
 /* line 3, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .header {
-  background: url("../../img/headerv1.png") no-repeat;
+  background: url("../../img/tempv2/headerBrand.png") no-repeat;
   background-size: cover;
   height: 600px;
   color: #6b3638;
@@ -9133,7 +9133,7 @@ button.close {
   font-size: 85px;
   font-weight: 400;
   line-height: 85px;
-  margin-top: 100px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 479px) {
@@ -9156,7 +9156,7 @@ button.close {
 }
 /* line 46, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .brand {
-  background: url("../../img/brandBG.png") #ffffff;
+  background: url("../../img/tempv2/brandBG.png") #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -9207,9 +9207,10 @@ button.close {
   margin-top: -33px;
   text-align: center;
   color: #ffffff;
-  background: url("../../img/divBypass.png");
+  background: url("../../img/tempv2/divBypass.png");
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
   height: 800px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -9220,17 +9221,17 @@ button.close {
     height: auto;
   }
 }
-/* line 102, ../sass/_landing_page/_v2.scss */
+/* line 103, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .bypass .col-lg-12 {
   margin-top: 25px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 102, ../sass/_landing_page/_v2.scss */
+  /* line 103, ../sass/_landing_page/_v2.scss */
   #fivestar.landingpage .bypass .col-lg-12 {
     margin-top: 10px;
   }
 }
-/* line 109, ../sass/_landing_page/_v2.scss */
+/* line 110, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .bypass h1 {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
   font-size: 60px;
@@ -9238,17 +9239,17 @@ button.close {
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 109, ../sass/_landing_page/_v2.scss */
+  /* line 110, ../sass/_landing_page/_v2.scss */
   #fivestar.landingpage .bypass h1 {
     font-size: 20px;
   }
 }
-/* line 122, ../sass/_landing_page/_v2.scss */
+/* line 123, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .bypass h2 {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
   font-weight: 400;
 }
-/* line 128, ../sass/_landing_page/_v2.scss */
+/* line 129, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .bypass p {
   text-align: center;
   font-size: 25px;
@@ -9258,38 +9259,41 @@ button.close {
   margin-bottom: 50px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 128, ../sass/_landing_page/_v2.scss */
+  /* line 129, ../sass/_landing_page/_v2.scss */
   #fivestar.landingpage .bypass p {
     font-size: 16px;
   }
 }
-/* line 147, ../sass/_landing_page/_v2.scss */
+/* line 148, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .seize {
   text-align: center;
   color: #333;
-  background: url("../../img/divLift.png");
+  background: url("../../img/tempv2/divSeize.png");
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   height: 800px;
+  margin-top: -32px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 147, ../sass/_landing_page/_v2.scss */
+  /* line 148, ../sass/_landing_page/_v2.scss */
   #fivestar.landingpage .seize {
     height: auto;
   }
 }
-/* line 160, ../sass/_landing_page/_v2.scss */
+/* line 164, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .seize .col-lg-12 {
   margin-top: 80px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 160, ../sass/_landing_page/_v2.scss */
+  /* line 164, ../sass/_landing_page/_v2.scss */
   #fivestar.landingpage .seize .col-lg-12 {
     margin-top: 10px;
   }
 }
-/* line 167, ../sass/_landing_page/_v2.scss */
+/* line 171, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .seize h1 {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
   font-size: 60px;
@@ -9298,17 +9302,17 @@ button.close {
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 167, ../sass/_landing_page/_v2.scss */
+  /* line 171, ../sass/_landing_page/_v2.scss */
   #fivestar.landingpage .seize h1 {
     font-size: 20px;
   }
 }
-/* line 181, ../sass/_landing_page/_v2.scss */
+/* line 185, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .seize h2 {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
   font-weight: 400;
 }
-/* line 187, ../sass/_landing_page/_v2.scss */
+/* line 191, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .seize p {
   text-align: center;
   font-size: 25px;
@@ -9318,46 +9322,44 @@ button.close {
   margin-bottom: 50px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 187, ../sass/_landing_page/_v2.scss */
+  /* line 191, ../sass/_landing_page/_v2.scss */
   #fivestar.landingpage .seize p {
     font-size: 16px;
   }
 }
-/* line 203, ../sass/_landing_page/_v2.scss */
+/* line 207, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .seize p.note {
   font-size: 18px;
   margin-top: 50px;
 }
-/* line 209, ../sass/_landing_page/_v2.scss */
+/* line 213, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .lodging {
   text-align: center;
   color: #ffffff;
-  background: url("../../img/divLodging.png");
+  background: url("../../img/tempv2/divLodging.png");
   background-size: cover;
-  background-attachment: fixed;
   height: 700px;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-bottom: -90px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 209, ../sass/_landing_page/_v2.scss */
+  /* line 213, ../sass/_landing_page/_v2.scss */
   #fivestar.landingpage .lodging {
     height: auto;
     margin-bottom: -40px;
   }
 }
-/* line 226, ../sass/_landing_page/_v2.scss */
+/* line 230, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .lodging .col-lg-12 {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 226, ../sass/_landing_page/_v2.scss */
+  /* line 230, ../sass/_landing_page/_v2.scss */
   #fivestar.landingpage .lodging .col-lg-12 {
     margin-top: 0px;
   }
 }
-/* line 232, ../sass/_landing_page/_v2.scss */
+/* line 236, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .lodging h1 {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
   font-size: 60px;
@@ -9366,17 +9368,17 @@ button.close {
   margin-bottom: 50px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 232, ../sass/_landing_page/_v2.scss */
+  /* line 236, ../sass/_landing_page/_v2.scss */
   #fivestar.landingpage .lodging h1 {
     font-size: 20px;
   }
 }
-/* line 246, ../sass/_landing_page/_v2.scss */
+/* line 250, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .lodging h2 {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
   font-weight: 400;
 }
-/* line 252, ../sass/_landing_page/_v2.scss */
+/* line 256, ../sass/_landing_page/_v2.scss */
 #fivestar.landingpage .lodging p {
   text-align: center;
   font-size: 20px;
@@ -9384,8 +9386,296 @@ button.close {
   font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
 }
 @media only screen and (max-width: 479px) {
-  /* line 252, ../sass/_landing_page/_v2.scss */
+  /* line 256, ../sass/_landing_page/_v2.scss */
   #fivestar.landingpage .lodging p {
+    font-size: 16px;
+  }
+}
+
+/* line 3, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .header {
+  background: url("../../img/tempv3/headerBrand.png") no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: #6b3638;
+  margin-top: -40px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 3, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .header {
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 479px) {
+  /* line 3, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .header {
+    height: 300px;
+  }
+}
+/* line 17, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .header h1 {
+  font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 85px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 17, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .header h1 {
+    font-size: 30px;
+    margin-top: 80px;
+  }
+}
+/* line 33, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .header h2 {
+  font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
+  font-weight: 400;
+}
+@media only screen and (max-width: 479px) {
+  /* line 33, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .header h2 {
+    font-size: 20px;
+  }
+}
+/* line 46, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .brand {
+  background: url("../../img/tempv3/brandBG.png") #ffffff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: auto;
+  overflow: auto;
+  border-bottom: thick solid #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 46, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .brand {
+    padding-top: 30px;
+  }
+}
+/* line 64, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .brand p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
+}
+@media only screen and (max-width: 479px) {
+  /* line 64, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .brand p {
+    font-size: 16px;
+  }
+}
+/* line 76, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .triangle {
+  text-align: center;
+  margin-top: -6px;
+  height: auto;
+  overflow: auto;
+}
+/* line 81, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .triangle img {
+  margin: auto;
+}
+@media only screen and (max-width: 479px) {
+  /* line 76, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .triangle {
+    display: none;
+  }
+}
+/* line 88, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .bypass {
+  margin-top: -33px;
+  text-align: center;
+  color: #ffffff;
+  background: url("../../img/tempv3/divBypass.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 88, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .bypass {
+    height: auto;
+  }
+}
+/* line 104, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .bypass .col-lg-12 {
+  margin-top: 25px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 104, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .bypass .col-lg-12 {
+    margin-top: 10px;
+  }
+}
+/* line 111, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .bypass h1 {
+  font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 111, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .bypass h1 {
+    font-size: 20px;
+  }
+}
+/* line 124, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .bypass h2 {
+  font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
+  font-weight: 400;
+}
+/* line 130, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .bypass p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 130, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .bypass p {
+    font-size: 16px;
+  }
+}
+/* line 149, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .seize {
+  text-align: center;
+  color: #333;
+  background: url("../../img/tempv3/divSeize.png");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  margin-top: -32px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 149, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .seize {
+    height: auto;
+  }
+}
+/* line 165, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .seize .col-lg-12 {
+  margin-top: 80px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 165, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .seize .col-lg-12 {
+    margin-top: 10px;
+  }
+}
+/* line 172, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .seize h1 {
+  font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #bd1821;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 172, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .seize h1 {
+    font-size: 20px;
+  }
+}
+/* line 186, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .seize h2 {
+  font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
+  font-weight: 400;
+}
+/* line 192, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .seize p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 192, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .seize p {
+    font-size: 16px;
+  }
+}
+/* line 208, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .seize p.note {
+  font-size: 18px;
+  margin-top: 50px;
+}
+/* line 214, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .lodging {
+  text-align: center;
+  color: #ffffff;
+  background: url("../../img/tempv3/divLodging.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: center;
+  height: 700px;
+  margin-top: -10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 214, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .lodging {
+    height: auto;
+    margin-bottom: -40px;
+  }
+}
+/* line 232, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .lodging .col-lg-12 {
+  margin-top: 100px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 232, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .lodging .col-lg-12 {
+    margin-top: 0px;
+  }
+}
+/* line 238, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .lodging h1 {
+  font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 238, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .lodging h1 {
+    font-size: 20px;
+  }
+}
+/* line 252, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .lodging h2 {
+  font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
+  font-weight: 400;
+}
+/* line 258, ../sass/_landing_page/_v3.scss */
+#nextgen.landingpage .lodging p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "MuseoSlab500", "HelveticaNeue-CondensedBold", "FranklinGothicFSDemiCondensed", Arial, sans-serif;
+}
+@media only screen and (max-width: 479px) {
+  /* line 258, ../sass/_landing_page/_v3.scss */
+  #nextgen.landingpage .lodging p {
     font-size: 16px;
   }
 }

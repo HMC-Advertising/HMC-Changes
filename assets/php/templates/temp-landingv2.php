@@ -12,8 +12,8 @@
 			<div class="col-lg-12">
 				<div class="container">
 					<div class="col-lg-9">
-						<h1>Experience Our White Carpet Treatment.</h1>
-						<h2>We're rolling it out all winter long.</h2>
+						<h1>Take it in. <br>Or take it on.</h1>
+						<h2>Here, it’s whatever you want.</h2>
 					</div>
 				</div>
 			</div>
@@ -26,7 +26,7 @@
 		<div class="col-lg-12">
 			<div class="container">
 				<div class="col-lg-12">
-					<p>Whatever you crave, we’ve got it all. From world-class dining, drinks and cocktails, to Vermont’s legendary terrain and everything in-between, the ultimate mountain experience is yours for the taking. Take it. </p>
+					<p>Whatever you or your family crave, we’ve got it all. From world-class accommodations, dining, and spa treatments, to Vermont’s legendary terrain and everything in-between, the ultimate mountain experience is yours for the taking. Take it.</p>
 				</div>
 			</div>
 		</div>
@@ -49,8 +49,8 @@
 			<div class="container">
 				<div class="col-lg-12">
 					<h1>Seize the mountain!</h1>
-					<p>Grab your Evolution Stowe Card and go. <br>Direct-to-Lift for every day you load online. </p>
-					<a href="#" class="button red">Ready. Set. Ski!!</a>
+					<p>Purchase your lift ticket online for the best rate and go Direct-to-Lift for every day you load or re-load on your Evolutions Stowe Card (ESC). After all, you’re here to ride your line. Not wait in one.  </p>
+					<a href="#" class="button red">BUY LIFT TICKET</a>
 					<p class="note">Please Note: Lift access products are non-refundable and non-transferable</p>
 				</div>
 			</div>
@@ -63,7 +63,8 @@
 		<div class="col-lg-12">
 			<div class="container">
 				<div class="col-lg-12">
-					<h1>Take me to my room.</h1>
+					<h1>We have something special<br> in Stowe just for you.<br> 
+And the whole family. </h1>
 					<a href="#" class="button red">Book Now</a>
 				</div>
 			</div>

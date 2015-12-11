@@ -1,7 +1,7 @@
 #apriski{
 	&.landingpage{
 		.header{
-			background:url("../../img/headerv1.png")no-repeat;
+			background:url("../../img/tempv1/headerv1.png")no-repeat;
 			background-size: cover;
 			@include respond(mobile){
 				background-position:center;
@@ -44,7 +44,7 @@
 
 		}
 		.brand{
-			background:url("../../img/brandBG.png") $w;
+			background:url("../../img/tempv1/brandBG.png") $w;
 			background-size:cover;
 			background-repeat:no-repeat;
 			color:$w;
@@ -88,9 +88,10 @@
 			margin-top:-33px;
 			text-align:center;
 			color:$w;
-			background:url("../../img/divBypass.png");
+			background:url("../../img/tempv1/divBypass.png");
 			background-attachment:fixed;
 			background-size:cover;
+			background-position:center; 
 			height:800px;
 			padding:{
 				top:50px;
@@ -147,7 +148,7 @@
 		.seize{
 			text-align:center;
 			color:$dg;
-			background:url("../../img/divLift.png");
+			background:url("../../img/tempv1/divLift.png");
 			background-size:cover;
 			height:800px;
 			padding:{
@@ -209,7 +210,7 @@
 		.lodging{ 
 			text-align:center;
 			color:$w;
-			background:url("../../img/divLodging.png");
+			background:url("../../img/tempv1/divLodging.png");
 			background-size:cover;
 			background-attachment:fixed;
 			height:700px;
@@ -218,7 +219,7 @@
 				top:50px;
 				bottom:50px;
 			}
-			margin-bottom:-90px;
+			//margin-bottom:-90px;
 			@include respond(mobile){
 				height:auto;
 				margin-bottom: -40px;
