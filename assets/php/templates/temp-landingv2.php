@@ -1,22 +1,13 @@
 <?php
 /* 
-	Template Name: Landing Page V1 ApresSki 
+	Template Name: Landing Page V2 5Star
 */
 	get_header();
-	$weather = $_GET["weather"];
 ?>
 
-<section id="apriski" class="landingpage">
+<section id="fivestar" class="landingpage">
 	<!-- header -->
-	<?php if(isset($weather)): ?>
-		<div class="header weather">
-			<div class="col-lg-12">
-				<div class="container">
-					
-				</div>
-			</div>
-		</div>
-	<?php else: ?>
+	
 		<div class="header">
 			<div class="col-lg-12">
 				<div class="container">
@@ -27,7 +18,7 @@
 				</div>
 			</div>
 		</div>
-	<?php endif; ?>	
+
 	<!-- \header -->
 
 	<!-- Brand -->
@@ -50,20 +41,7 @@
 	</div>
 	<!-- \Triangle -->
 
-	<!-- Bypass -->
-	<div class="bypass">
-		<div class="col-lg-12">
-			<div class="container">
-				<div class="col-lg-12">
-					<img src="<?php echo plugins_url('/HMCchanges_stowe/assets/img/bypassLogo.png'); ?>">
-					<h1>A legendary experience awaits.<br>Without the wait.</h1>
-					<p>ByPass is a feature you can add to your Evolution Stowe Card.<br> And it’s as easy as: Add. Grab. And Go!</p>
-					<a href="#" class="button red">Discover the Benefits</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /Bypass -->
+	
 
 	<!-- Seize -->
 	<div class="seize">
@@ -92,6 +70,21 @@
 		</div>
 	</div>
 	<!-- /Lodging -->
+
+	<!-- Bypass -->
+	<div class="bypass">
+		<div class="col-lg-12">
+			<div class="container">
+				<div class="col-lg-12">
+					<img src="<?php echo plugins_url('/HMCchanges_stowe/assets/img/bypassLogo.png'); ?>">
+					<h1>A legendary experience awaits.<br>Without the wait.</h1>
+					<p>ByPass is a feature you can add to your Evolution Stowe Card.<br> And it’s as easy as: Add. Grab. And Go!</p>
+					<a href="#" class="button red">Discover the Benefits</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /Bypass -->
 
 </section>
 

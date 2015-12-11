@@ -18,12 +18,27 @@ $mainFont : 'MuseoSlab500',"HelveticaNeue-CondensedBold","FranklinGothicFSDemiCo
   overflow: hidden;
   padding-bottom: 56.25%;
   iframe{
-  	position: absolute;
-  	top: 0;
-  	bottom: 0;
-  	left: 0;
-  	width: 100%;
-  	height: 100%;
-  	border: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
   }
 }
+.button{
+	&.red{
+		color:$w;
+		background:$red;
+		font:{
+			size:25px;
+		}
+		padding:10px 20px;
+		&:hover{
+			background:$w;
+			color:$red !important;
+		}
+	}
+}
+
