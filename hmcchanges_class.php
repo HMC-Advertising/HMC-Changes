@@ -51,7 +51,8 @@ class PageTemplater {
 			'assets/php/templates/temp-landingv1.php'     => 'Landing Page V1 ApresSki ',
 			'assets/php/templates/temp-landingv2.php'     => 'Landing Page V2 5Star ',
 			'assets/php/templates/temp-landingv3.php'     => 'Landing Page V3 NextGen ',
-			'assets/php/templates/temp-landingv4.php'     => 'Landing Page V4 ByPass ',
+			'assets/php/templates/temp-landingv4.php'     => 'Landing Page V4 Snow ',
+			'assets/php/templates/temp-landingv5.php'     => 'Landing Page V5 Snow NextGen',
 		);
 	}
 	

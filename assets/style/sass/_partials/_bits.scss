@@ -34,6 +34,15 @@ $mainFont : 'MuseoSlab500',"HelveticaNeue-CondensedBold","FranklinGothicFSDemiCo
 		font:{
 			size:25px;
 		}
+		@include respond(mobile){
+			display: block;
+			font-size: 20px;
+		}
+		@include respond(wide){
+			display: block;
+			font-size: 20px;
+			text-align: center;
+		}
 		padding:10px 20px;
 		&:hover{
 			background:$w;

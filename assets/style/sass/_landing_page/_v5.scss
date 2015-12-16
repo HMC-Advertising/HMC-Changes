@@ -1,7 +1,7 @@
-#snow{
+#snowNextGen{
 	&.landingpage{
 		.header{
-			background:url("../../img/tempv4/headerSnowv2.png")no-repeat;
+			background:url("../../img/tempv4/headerSnowv2.png") no-repeat;
 			background-size: cover;
 			@include respond(mobile){
 				background-position:center;
@@ -13,17 +13,17 @@
 				background-position:right;
 			}
 			height:670px;
+			overflow:auto;
 			@include respond(mobile){
-				height:300px; 
-			}
+						height:auto;
+					}
 			@include respond(wide){
-				height:300px; 
-			}
+						height:auto;
+					}		
 			color:$dred;
 			margin:{
 				top:-40px;
 			}
-			
 			@include respond(mobile){
 				margin:{
 					top:0px;
@@ -34,36 +34,69 @@
 					top:0px;
 				}
 			}
-			.col-xs-7{
-				margin-top:130px;
-			}
+			
 
 		}
 		
 		.bypass{
-			margin-top:-33px;
+			//margin-top:-33px;
 			text-align:center;
 			color:$w;
-			background:url("../../img/tempv1/divBypass.png");
+			background:url("../../img/tempv3/divBypass.png");
 			background-attachment:fixed;
 			background-size:cover;
+			background-position:center; 
+			height:670px;
+			padding:{
+				top:50px;
+				bottom:50px;
+			}
+			@include mobile(0px, 1199px){
+				height:auto;
+			}
 			
-
 		}
 		.seize{
 			text-align:center;
 			color:$dg;
 			background:url("../../img/tempv1/divLift.png");
 			background-size:cover;
-			background-position:center;
-		}
+			height:670px;
+			padding:{
+				top:50px;
+				bottom:50px;
+			}
+			@include respond(mobile){
+				height:auto;
+			}
+			@include respond(wide){
+				height:auto;
+			}
 			
+	}
 		.lodging{ 
 			text-align:center;
 			color:$w;
 			background:url("../../img/tempv1/divLodging.png");
 			background-size:cover;
 			background-attachment:fixed;
+			height:570px;
+
+			padding:{
+				top:50px;
+				bottom:50px;
+			}
+			//margin-bottom:-90px;
+			@include respond(mobile){
+				height:auto;
+				margin-top: -20px;
+				margin-bottom: -40px;
+			}
+			@include respond(wide){
+				height:auto;
+				margin-top: -20px;
+				margin-bottom: -40px;
+			}
 			
 		}
 	}

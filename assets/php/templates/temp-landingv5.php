@@ -1,26 +1,28 @@
 <?php
 /* 
-	Template Name: Landing Page V3 NextGen
+	Template Name: Landing Page V5 
 */
 	get_header();
+	$weather = $_GET["weather"];
 ?>
 
-<section id="nextgen" class="landingpage Winter">
-
-	<!-- Seize -->
-	<div class="seize">
-		<div class="col-lg-12">
-			<div class="container">
-				<div class="col-lg-12">
-					<h1>Seize the mountain!</h1>
-					<p>Purchase your lift ticket online for the best rate and go Direct-to-Lift for everyday you load or re-load on your Evolutions Stowe Card (ESC). After all, you’re here to ride your line.  Not wait in one. </p>
-					<a href="#" class="button red">Ready. Set. Ski!</a>
-					<p class="note">Please Note: Lift access products are non-refundable and non-transferable</p>
+<section id="snowNextGen" class="landingpage Winter">
+	<!-- header -->
+	<div class="header">
+			<div class="col-lg-12">
+				<div class="container">
+					<div class="col-xs-8">
+						<h1>Stowe just got a fresh coat. </h1>
+						<h2>Conditions are ideal! Purchase your lift ticket online. Get the best rate. And go Direct-to-Lift for everyday you load or re-load on your Evolutions Stowe Card (ESC).</h2>
+						<a href="#" class="button red">Ready. Set. Ski!</a>
+						<p class="note">Please Note: Lift access products are non-refundable and non-transferable </p>
+						
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- /Seize -->
+	<!-- \header -->
+
 	<!-- Bypass -->
 	<div class="bypass">
 		<div class="col-lg-12">
@@ -36,20 +38,7 @@
 	</div>
 	<!-- /Bypass -->
 
-	<!-- header -->
 	
-		<div class="header">
-			<div class="col-lg-12">
-				<div class="container">
-					<div class="col-lg-7 pull-right right">
-						<h1>It’s adrenaline season at Stowe. </h1>
-						<h2>Act accordingly.</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	<!-- \header -->
 
 	<!-- Brand -->
 	<div class=" brand">
@@ -69,8 +58,7 @@
 			<div class="container">
 				<div class="col-lg-12">
 					<h1>Take me to my room</h1>
-					<p>
-We have the perfect room waiting for you and your every need. From our Classic Guest Room to all-out luxury Mountain Cabins, we’ve got you covered. </p>
+					<p>We have the perfect room waiting for you and your every need. From our Classic Guest Room to all-out luxury Mountain Cabins, we’ve got you covered.</p>
 					<a href="#" class="button red">Book Now</a>
 				</div>
 			</div>

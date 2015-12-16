@@ -1,33 +1,24 @@
 <?php
 /* 
-	Template Name: Landing Page V1 ApresSki 
+	Template Name: Landing Page V4 Snow 
 */
 	get_header();
 	$weather = $_GET["weather"];
 ?>
 
-<section id="apriski" class="landingpage Winter">
+<section id="snow" class="landingpage Winter">
 	<!-- header -->
-	<?php if(isset($weather)): ?>
-		<div class="header weather">
+	<div class="header">
 			<div class="col-lg-12">
 				<div class="container">
-					
-				</div>
-			</div>
-		</div>
-	<?php else: ?>
-		<div class="header">
-			<div class="col-lg-12">
-				<div class="container">
-					<div class="col-sm-9">
-						<h1>Experience our white carpet treatment.</h1>
-						<h2>We’re rolling it out all winter long.</h2>
+					<div class="col-xs-7">
+						<h1>Stowe just got a fresh coat.</h1>
+						<a href="#" class="button red">Ready. Set. Ski!</a>
+						
 					</div>
 				</div>
 			</div>
 		</div>
-	<?php endif; ?>	
 	<!-- \header -->
 
 	<!-- Brand -->
@@ -45,8 +36,7 @@
 	<!-- Triangle -->
 	<div class="triangle">
 		<div class="col-lg-12">
-			<img src="<?php echo plugins_url('/HMCchanges_plugin/assets/img/triangle.png');
-			//plugins_url('/HMCchanges_stowe/assets/img/triangle.png'); ?>">
+			<img src="<?php echo plugins_url('/HMCchanges_plugin/assets/img/triangle.png'); ?>">
 		</div>
 	</div>
 	<!-- \Triangle -->
@@ -55,10 +45,9 @@
 	<div class="bypass">
 		<div class="col-lg-12">
 			<div class="container">
-				<div class="col-lg-12">
-					<img src="<?php echo plugins_url('/HMCchanges_plugin/assets/img/bypassLogo.png');
-					//plugins_url('/HMCchanges_stowe/assets/img/bypassLogo.png'); ?>">
-					<h1>A legendary experience awaits.Without the wait. </h1>
+				<div class="col-sm-9">
+					<img src="<?php echo plugins_url('/HMCchanges_plugin/assets/img/bypassLogo.png'); ?>">
+					<h1>A legendary experience awaits. Without the wait. </h1>
 					<p>ByPass is a feature you can add to your evolution card. And it’s as easy as: Add. Grab. And Go!</p>
 					<a href="#" class="button red">Discover the Benefits</a>
 				</div>
@@ -88,7 +77,7 @@
 			<div class="container">
 				<div class="col-lg-12">
 					<h1>Take Me to My Room</h1>
-					<p>We have the perfect room waiting for you and your every need. From the Classic Guest Room to our Mountain Cabins, we’ve got you covered. </p>
+					<p>We have the perfect room waiting for you and your every need. From the Classic Guest Room to our Mountain Cabins, we’ve got you covered.</p>
 					<a href="#" class="button red">Book Now</a>
 				</div>
 			</div>

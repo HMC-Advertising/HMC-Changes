@@ -5,14 +5,14 @@
 	get_header();
 ?>
 
-<section id="fivestar" class="landingpage">
+<section id="fivestar" class="landingpage Winter">
 	<!-- header -->
 	
 		<div class="header">
 			<div class="col-lg-12">
 				<div class="container">
-					<div class="col-lg-9">
-						<h1>Take it in. <br>Or take it on.</h1>
+					<div class="col-lg-7">
+						<h1>Take it in. Or take it on.</h1>
 						<h2>Here, it’s whatever you want.</h2>
 					</div>
 				</div>
@@ -36,7 +36,7 @@
 	<!-- Triangle -->
 	<div class="triangle">
 		<div class="col-lg-12">
-			<img src="<?php echo plugins_url('/HMCchanges_stowe/assets/img/triangle.png'); ?>">
+			<img src="<?php echo plugins_url('/HMCchanges_plugin/assets/img/triangle.png'); ?>">
 		</div>
 	</div>
 	<!-- \Triangle -->
@@ -63,8 +63,7 @@
 		<div class="col-lg-12">
 			<div class="container">
 				<div class="col-lg-12">
-					<h1>We have something special<br> in Stowe just for you.<br> 
-And the whole family. </h1>
+					<h1>We have something special in Stowe just for you. And the whole family. </h1>
 					<a href="#" class="button red">Book Now</a>
 				</div>
 			</div>
@@ -77,9 +76,9 @@ And the whole family. </h1>
 		<div class="col-lg-12">
 			<div class="container">
 				<div class="col-lg-12">
-					<img src="<?php echo plugins_url('/HMCchanges_stowe/assets/img/bypassLogo.png'); ?>">
-					<h1>A legendary experience awaits.<br>Without the wait.</h1>
-					<p>ByPass is a feature you can add to your Evolution Stowe Card.<br> And it’s as easy as: Add. Grab. And Go!</p>
+					<img src="<?php echo plugins_url('/HMCchanges_plugin/assets/img/bypassLogo.png'); ?>">
+					<h1>A legendary experience awaits. Without the wait.</h1>
+					<p>ByPass is a feature you can add to your Evolution Stowe Card. And it’s as easy as: Add. Grab. And Go!</p>
 					<a href="#" class="button red">Discover the Benefits</a>
 				</div>
 			</div>

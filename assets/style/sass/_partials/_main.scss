@@ -1,34 +1,33 @@
-#apriski{
+.Winter{
 	&.landingpage{
 		.header{
-			background:url("../../img/tempv1/headerv1.png")no-repeat;
-			background-size: cover;
-			@include respond(mobile){
-				background-position:center;
-			}
-			height:600px;
-			@include respond(mobile){
-						height:300px;
-					}
-			color:$dred;
-			margin:{
-				top:-40px;
+			.col-lg-7.right{
+				text-align:right;
+
 			}
 			h1{
 				font:{
 					family:$mainFont;
-					size:85px;
+					size:75px;
 					weight:400;
 				}
-				line-height:85px;
+				line-height:75px;
 				margin:{
-					top:100px;
+					top:40px;
 					bottom:20px;
 				}
 				@include respond(mobile){
-						font-size:30px;
-						margin-top:80px;
-					}
+					font-size:30px;
+					margin-top:25px;
+					line-height: 30px;
+					
+				}
+				@include respond(wide){
+					font-size:30px;
+					margin-top:25px;
+					line-height: 30px;
+					
+				}
 			}
 			h2{
 				font:{
@@ -37,15 +36,19 @@
 					
 				}
 				@include respond(mobile){
-						font-size:20px
+						font-size:20px;
+						text-shadow: $b 1px 1px 1px;
+						line-height: 20px;
 					}
+
 
 			}
 
 		}
 		.brand{
-			background:url("../../img/tempv1/brandBG.png") $w;
+			background:url("../../img/tempv3/brandBG.png") $w;
 			background-size:cover;
+			background-position:center; 
 			background-repeat:no-repeat;
 			color:$w;
 			height:auto;
@@ -59,9 +62,13 @@
 			}
 			@include respond(mobile){
 						padding-top:30px;
+						padding-bottom:20px;
 					}
 			p{
-				text-align:center;
+				text:{
+					align:center;
+					transform: uppercase;
+				}
 				font:{
 					size:20px;
 					weight:400;
@@ -85,23 +92,25 @@
 			}
 		}
 		.bypass{
-			margin-top:-33px;
-			text-align:center;
-			color:$w;
-			background:url("../../img/tempv1/divBypass.png");
-			background-attachment:fixed;
-			background-size:cover;
-			background-position:center; 
-			height:800px;
+			//margin-top:-33px;
+			
+			height:670px;
 			padding:{
 				top:50px;
 				bottom:50px;
 			}
 			@include respond(mobile){
 				height:auto;
+				padding:{
+					top:20px;
+					bottom:50px;
+				}
+			}
+			@include respond(tablet){
+				height:auto;
 			}
 			.col-lg-12{
-				margin-top:25px;
+				margin-top:-5px;
 				@include respond(mobile){
 					margin-top: 10px;
 				}
@@ -117,7 +126,7 @@
 					bottom:20px;
 				}
 				@include respond(mobile){
-						font-size: 20px;
+						font-size: 30px;
 					}
 			}
 			h2{
@@ -141,25 +150,43 @@
 				}
 				@include respond(mobile){
 					font-size:16px;
+					padding:{
+						top:0px;
+					}
+					margin:{
+						bottom:20px;
+					}
 				}
 			}
 
 		}
 		.seize{
-			text-align:center;
-			color:$dg;
-			background:url("../../img/tempv1/divLift.png");
-			background-size:cover;
-			height:800px;
+			
+		
+			height:670px;
+			
+			margin-top:-32px;
 			padding:{
 				top:50px;
 				bottom:50px;
 			}
 			@include respond(mobile){
+				margin:{
+					top:-2px;
+				}
+				padding:{
+					top:20px;
+					bottom:20px;
+				}
+			}
+			@include respond(mobile){
+				height:auto;
+			}
+			@include respond(tablet){
 				height:auto;
 			}
 			.col-lg-12{
-				margin-top:80px;
+				margin-top:40px;
 				@include respond(mobile){
 					margin-top: 10px;
 				}
@@ -168,7 +195,7 @@
 			h1{
 				font:{
 					family:$mainFont;
-					size:60px;
+					size:70px;
 					weight:400;
 				}
 				color:$red;
@@ -176,8 +203,11 @@
 					bottom:20px;
 				}
 				@include respond(mobile){
-						font-size: 20px;
+						font-size: 30px;
 					}
+				@include respond(wide){
+						font-size: 30px;
+					}	
 			}
 			h2{
 				font:{
@@ -188,7 +218,7 @@
 			p{
 				text-align:center;
 				font:{
-					size:25px;
+					size:30px;
 					weight:400;
 					family:$mainFont;
 				}
@@ -199,22 +229,45 @@
 					bottom:50px;
 				}
 				@include respond(mobile){
+						margin-top: 20px;
+					margin:{
+						bottom:20px;
+					}
+				}
+				@include respond(mobile){
+					font-size:16px;
+				}
+				@include respond(wide){
+						margin-top: 20px;
+					margin:{
+						bottom:20px;
+					}
+				}
+				@include respond(wide){
 					font-size:16px;
 				}
 				&.note{
-					font-size: 18px;
-					margin-top: 50px;
+					font-size: 16px;
+					margin-top: 150px;
+					@include respond(mobile){
+						font-size:12px;
+						margin-top:25px;
+						line-height: 15px;
+						margin-bottom:20px;
+					}
+					@include respond(wide){
+						font-size:12px;
+						margin-top:25px;
+						line-height: 15px;
+						margin-bottom:20px;
+					}
 				}
 			}
-	}
+		}
 		.lodging{ 
-			text-align:center;
-			color:$w;
-			background:url("../../img/tempv1/divLodging.png");
-			background-size:cover;
-			background-attachment:fixed;
-			height:700px;
-
+			
+			height:570px;
+			margin-top: -10px;
 			padding:{
 				top:50px;
 				bottom:50px;
@@ -225,7 +278,7 @@
 				margin-bottom: -40px;
 			}
 			.col-lg-12{
-				margin-top:100px;
+				margin-top:40px;
 				@include respond(mobile){ 
 					margin-top:0px;
 				}
@@ -238,10 +291,10 @@
 				}
 				color:$w;
 				margin:{
-					bottom:50px;
+					bottom:20px;
 				}
 				@include respond(mobile){
-						font-size: 20px;
+						font-size: 30px;
 					}
 			}
 			h2{
@@ -253,14 +306,31 @@
 			p{
 				text-align:center;
 				font:{
-					size:20px;
+					size:28px;
 					weight:400;
-					family:$mainFont;
+				 	family:$mainFont;
 				}
+				margin-bottom: 40px;
 				@include respond(mobile){
 					font-size: 16px;
 				}
 			}
 		}
 	}
+	.note{
+					font-size: 16px;
+					margin-top: 150px;
+					@include respond(mobile){
+						font-size:12px;
+						margin-top:25px;
+						line-height: 15px;
+						margin-bottom:20px;
+					}
+					@include respond(wide){
+						font-size:12px;
+						margin-top:25px;
+						line-height: 15px;
+						margin-bottom:20px;
+					}
+				}
 }
