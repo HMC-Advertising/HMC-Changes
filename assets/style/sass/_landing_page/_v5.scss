@@ -11,15 +11,11 @@
 			}
 			@include respond(tablet){
 				background-position:right;
+				height:auto;
 			}
-			height:670px;
-			overflow:auto;
-			@include respond(mobile){
-						height:auto;
-					}
-			@include respond(wide){
-						height:auto;
-					}		
+			
+			
+			
 			color:$dred;
 			margin:{
 				top:-40px;
@@ -34,6 +30,15 @@
 					top:0px;
 				}
 			}
+			h2{
+				margin-bottom:35px;
+			}
+			.note{
+				@include respond(tablet){
+				    margin-top: 35px;
+    				margin-bottom: 31px;
+				}
+			}
 			
 
 		}
@@ -44,6 +49,9 @@
 			color:$w;
 			background:url("../../img/tempv3/divBypass.png");
 			background-attachment:fixed;
+			@include mobile(0px, 700px){
+				background-attachment: local;
+			}
 			background-size:cover;
 			background-position:center; 
 			height:670px;
@@ -53,6 +61,12 @@
 			}
 			@include mobile(0px, 1199px){
 				height:auto;
+			}
+			@include respond(mobile){
+				padding-top:30px !important;
+			}
+			@include respond(wide){
+					padding-top:30px !important;
 			}
 			
 		}
@@ -81,7 +95,9 @@
 			background-size:cover;
 			background-attachment:fixed;
 			height:570px;
-
+			@include mobile(0px, 700px){
+				background-attachment: local;
+			}
 			padding:{
 				top:50px;
 				bottom:50px;

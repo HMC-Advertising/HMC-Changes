@@ -1,29 +1,12 @@
-#snow{
+#apriski{
 	&.landingpage{
 		.header{
-			background:url("../../img/tempv4/headerSnowv2.png")no-repeat;
-			background-size: cover;
-			@include respond(mobile){
-				background-position:center;
-			}
-			@include respond(wide){
-				background-position:center;
-			}
-			@include respond(tablet){
-				background-position:right;
-			}
-			height:670px;
-			@include respond(mobile){
-				height:300px; 
-			}
-			@include respond(wide){
-				height:300px; 
-			}
+			background:url("../../img/tempv1/headerSnow.png")no-repeat;
+			
 			color:$dred;
 			margin:{
-				top:-40px;
+				top:-44px;
 			}
-			
 			@include respond(mobile){
 				margin:{
 					top:0px;
@@ -34,55 +17,49 @@
 					top:0px;
 				}
 			}
-			h1{
-				margin-bottom:35px;
-				@include respond(mobile){
-					margin-top: 86px !important;
-				}
-				@include respond(wide){
-					margin-top: 86px !important;
-				}
-			}
-			.button.red{
-				@include respond(wide){
-				display:inline;
-				}
-			}
+			
 		}
 		
 		.bypass{
+			a{
+				@include respond(tablet){
+					margin-bottom: 30px;
+				}
+			}
 			margin-top:-33px;
 			@include respond(mobile){
-				margin-top: -12px !important;
+				margin-top:-12px;
 			}
-			
 			text-align:center;
 			color:$w;
 			background:url("../../img/tempv1/divBypass.png");
 			background-attachment:fixed;
 			background-size:cover;
+			background-position:center; 
+
 			@include mobile(0px, 700px){
 				background-attachment: local;
 			}
+			
 
 		}
 		.seize{
 			text-align:center;
 			color:$dg;
-			background:url("../../img/tempv1/divLift.png");
+			background:url("../../img/tempv1/divSeize.png");
 			background-size:cover;
 			background-position:center;
+		
 			@include respond(mobile){
 					margin-top: 0px !important;
-				}
-				@include respond(wide){
-					margin-top: 0px !important;
-				}
-				@include respond(tablet){
+			}
+			@include respond(wide){
+				margin-top: 0px !important;
+			}
+			@include respond(tablet){
 				margin-top: 0px !important;
 			}
 		}
-			
 		.lodging{ 
 			text-align:center;
 			color:$w;

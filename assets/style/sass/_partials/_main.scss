@@ -1,6 +1,22 @@
 .Winter{
 	&.landingpage{
+		
 		.header{
+			height:670px;
+			background-size: cover !important;
+
+			@include respond(mobile){
+				background-position:center !important;
+				height:300px;
+			}
+			@include respond(tablet){
+				background-position:center !important;
+			}
+			@include respond(wide){
+				background-position:center !important;
+				height:300px;
+			}
+
 			.col-lg-7.right{
 				text-align:right;
 
@@ -8,12 +24,12 @@
 			h1{
 				font:{
 					family:$mainFont;
-					size:75px;
+					size:70px;
 					weight:400;
 				}
-				line-height:75px;
+				line-height:70px;
 				margin:{
-					top:40px;
+					top:80px;
 					bottom:20px;
 				}
 				@include respond(mobile){
@@ -37,7 +53,7 @@
 				}
 				@include respond(mobile){
 						font-size:20px;
-						text-shadow: $b 1px 1px 1px;
+						//text-shadow: $b 1px 1px 1px;
 						line-height: 20px;
 					}
 
@@ -62,7 +78,7 @@
 			}
 			@include respond(mobile){
 						padding-top:30px;
-						padding-bottom:20px;
+						padding-bottom:30px;
 					}
 			p{
 				text:{
@@ -77,6 +93,9 @@
 				@include respond(mobile){
 						font-size: 16px;
 					}
+				@include respond(wide){
+						font-size: 16px;
+					}	
 			}
 		}
 		.triangle{
@@ -94,7 +113,7 @@
 		.bypass{
 			//margin-top:-33px;
 			
-			height:670px;
+			height:690px;
 			padding:{
 				top:50px;
 				bottom:50px;
@@ -109,6 +128,10 @@
 			@include respond(tablet){
 				height:auto;
 			}
+			@include respond(wide){
+				height:auto;
+				//margin-bottom: -40px;
+			}
 			.col-lg-12{
 				margin-top:-5px;
 				@include respond(mobile){
@@ -117,24 +140,14 @@
 
 			}
 			h1{
-				font:{
-					family:$mainFont;
-					size:60px;
-					weight:400;
-				}
-				margin:{
-					bottom:20px;
-				}
 				@include respond(mobile){
-						font-size: 30px;
-					}
-			}
-			h2{
-				font:{
-					family:$mainFont;
-					weight:400; 
+					margin-top: 0px;
+				}
+				@include respond(wide){
+					margin-top: 0px;
 				}
 			}
+			
 			p{
 				text-align:center;
 				font:{
@@ -143,12 +156,21 @@
 					family:$mainFont;
 				}
 				padding:{
-					top:50px;
+					top:20px;
 				}
 				margin:{
 					bottom:50px;
 				}
 				@include respond(mobile){
+					font-size:16px;
+					padding:{
+						top:0px;
+					}
+					margin:{
+						bottom:20px;
+					}
+				}
+				@include respond(wide){
 					font-size:16px;
 					padding:{
 						top:0px;
@@ -185,9 +207,19 @@
 			@include respond(tablet){
 				height:auto;
 			}
+			@include respond(wide){
+				height:auto;
+				//margin-bottom: -40px;
+			}
 			.col-lg-12{
 				margin-top:40px;
 				@include respond(mobile){
+					margin-top: 0px;
+				}
+				@include respond(wide){
+					margin-top: 0px;
+				}
+				@include respond(tablet){
 					margin-top: 10px;
 				}
 
@@ -195,19 +227,14 @@
 			h1{
 				font:{
 					family:$mainFont;
-					size:70px;
+					
 					weight:400;
 				}
 				color:$red;
 				margin:{
 					bottom:20px;
 				}
-				@include respond(mobile){
-						font-size: 30px;
-					}
-				@include respond(wide){
-						font-size: 30px;
-					}	
+				
 			}
 			h2{
 				font:{
@@ -229,7 +256,7 @@
 					bottom:50px;
 				}
 				@include respond(mobile){
-						margin-top: 20px;
+						margin-top: 0px;
 					margin:{
 						bottom:20px;
 					}
@@ -238,7 +265,7 @@
 					font-size:16px;
 				}
 				@include respond(wide){
-						margin-top: 20px;
+						margin-top: 0px;
 					margin:{
 						bottom:20px;
 					}
@@ -275,27 +302,40 @@
 			//margin-bottom:-90px;
 			@include respond(mobile){
 				height:auto;
-				margin-bottom: -40px;
+				//margin-bottom: -40px;
+			}
+			@include respond(wide){
+				height:auto;
+				//margin-bottom: -40px;
 			}
 			.col-lg-12{
-				margin-top:40px;
+				margin-top:20px;
 				@include respond(mobile){ 
+					margin-top:0px;
+				}
+				@include respond(wide){ 
 					margin-top:0px;
 				}
 			}
 			h1{
+				@include respond(mobile){
+					margin-top: 0;
+					//margin-bottom: -40px;
+				}
+				@include respond(wide){
+					margin-top: 0;
+					//margin-bottom: -40px;
+				}
 				font:{
 					family:$mainFont;
-					size:60px;
+					
 					weight:400;
 				}
 				color:$w;
 				margin:{
 					bottom:20px;
 				}
-				@include respond(mobile){
-						font-size: 30px;
-					}
+				
 			}
 			h2{
 				font:{
@@ -314,23 +354,99 @@
 				@include respond(mobile){
 					font-size: 16px;
 				}
+				@include respond(wide){
+					font-size: 16px;
+				}
 			}
 		}
 	}
 	.note{
-					font-size: 16px;
-					margin-top: 150px;
-					@include respond(mobile){
-						font-size:12px;
-						margin-top:25px;
-						line-height: 15px;
-						margin-bottom:20px;
-					}
-					@include respond(wide){
-						font-size:12px;
-						margin-top:25px;
-						line-height: 15px;
-						margin-bottom:20px;
-					}
-				}
+		font-size: 16px;
+		margin-top: 150px;
+		@include respond(mobile){
+			font-size:12px;
+			margin-top:25px;
+			line-height: 15px;
+			margin-bottom:20px;
+		}
+		@include respond(wide){
+			font-size:12px;
+			margin-top:25px;
+			line-height: 15px;
+			margin-bottom:20px;
+		}
+	}
+	.r{
+		display: block;
+		height:auto;
+		clear:both;
+		overflow: auto;
+	}
+	@include respond(mobile){
+		.container{
+			padding-left:0px;
+			padding-right:0px;
+			zoom:0;
+			.col-lg-12{
+				padding-left:0;
+				padding-right:0;
+			}
+		}
+	}
+	@include respond(wide){
+		.container{
+			padding-left:0px;
+			padding-right:0px;
+			zoom:0;
+			.col-lg-12{
+				padding-left:0;
+				padding-right:0;
+			}
+		}
+	}
+	h2{
+		font:{
+			family:$mainFont;
+			weight:400; 
+			
+		}
+		@include respond(mobile){
+				font-size:20px;
+				//text-shadow: $b 1px 1px 1px;
+				line-height: 20px;
+		}
+		@include respond(wide){
+				font-size:20px;
+				//text-shadow: $b 1px 1px 1px;
+				line-height: 20px;
+		}
+	}
+	h1{
+		font:{
+			family:$mainFont;
+			size:70px;
+			weight:400;
+		}
+		line-height:70px;
+		
+		@include respond(mobile){
+			font-size:30px;
+			margin-top:0px;
+			line-height: 30px;
+			
+		}
+		@include respond(wide){
+			font-size:30px;
+			margin-top:0px;
+			line-height: 30px;
+			
+		}
+		@include respond(tablet){
+			margin-top:0px;
+			
+		}
+	}
+	.right{
+		text-align:right;
+	}
 }

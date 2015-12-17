@@ -3,20 +3,14 @@
 		.header{
 			background:url("../../img/tempv3/headerBrand.png")no-repeat;
 			background-size: cover;
-			@include respond(mobile){
-				background-position:center;
-			}
-			height:670px;
-			@include respond(mobile){
-						height:300px;
-					}
+			
+
 			color:$w;
 			
 			.col-lg-7{
 				text-align:right;
 
 			}
-			
 
 		}
 		
@@ -40,6 +34,9 @@
 			background-attachment: fixed;
 			background-size:cover;
 			background-position:center; 
+			@include mobile(0px, 700px){
+				background-attachment: local;
+			}
 			
 		}
 		.seize{
@@ -49,8 +46,25 @@
 			background-size:cover;
 			background-position:center;
 		
-			height:670px;
+		
 			margin-top: -41px !important;
+			@include respond(mobile){
+				margin-top: 0px !important;
+			}
+			@include respond(wide){
+				margin-top: 0px !important;
+			}
+			h1{
+				@include respond(tablet){
+					margin-top: 30px !important;
+				}
+			}
+			.note{
+				    margin-top: 50px !important;
+			}
+			
+
+
 
 		}
 		.lodging{ 
@@ -60,6 +74,9 @@
 			background-size:cover;
 			background-attachment: fixed;
 			
+			@include mobile(0px, 700px){
+				background-attachment: local;
+			}
 		}
 	}
 }

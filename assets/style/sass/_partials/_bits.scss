@@ -36,11 +36,12 @@ $mainFont : 'MuseoSlab500',"HelveticaNeue-CondensedBold","FranklinGothicFSDemiCo
 		}
 		@include respond(mobile){
 			display: block;
-			font-size: 20px;
+			font-size: 15px;
+			text-align: center;
 		}
 		@include respond(wide){
 			display: block;
-			font-size: 20px;
+			font-size: 15px;
 			text-align: center;
 		}
 		padding:10px 20px;
