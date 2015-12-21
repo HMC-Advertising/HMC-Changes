@@ -1,8 +1,9 @@
 #snow{
 	&.landingpage{
 		.header{
-			background:url("../../img/tempv4/headerSnowv2.png")no-repeat;
+			background:url("../../img/tempv4/headerSnowv3.png")no-repeat;
 			background-size: cover;
+			background-position:bottom;
 			@include respond(mobile){
 				background-position:center;
 			}
@@ -35,12 +36,13 @@
 				}
 			}
 			h1{
+				color:$red;
 				margin-bottom:35px;
 				@include respond(mobile){
-					margin-top: 86px !important;
+					margin-top: 30px !important;
 				}
 				@include respond(wide){
-					margin-top: 86px !important;
+					margin-top: 30px !important;
 				}
 			}
 			.button.red{
@@ -49,8 +51,18 @@
 				}
 			}
 		}
+		.brand{
+			margin-top:-100px;
+			@include respond(mobile){
+				margin-top:0;
+			}
+			@include respond(wide){
+				margin-top: 0;
+			}
+		}
 		
 		.bypass{
+
 			margin-top:-33px;
 			@include respond(mobile){
 				margin-top: -12px !important;
@@ -63,6 +75,12 @@
 			background-size:cover;
 			@include mobile(0px, 700px){
 				background-attachment: local;
+			}
+			.r{
+				margin-bottom:10px;
+				@include respond(mobile){
+					margin-bottom:0px;
+				}
 			}
 
 		}
@@ -81,9 +99,16 @@
 				@include respond(tablet){
 				margin-top: 0px !important;
 			}
+			.r{
+				margin-bottom:10px;
+				@include respond(mobile){
+					margin-bottom:0px;
+				}
+			}
 		}
 			
 		.lodging{ 
+			
 			text-align:center;
 			color:$w;
 			background:url("../../img/tempv1/divLodging.png");
@@ -91,6 +116,12 @@
 			background-attachment:fixed;
 			@include mobile(0px, 700px){
 				background-attachment: local;
+			}
+			.r{
+				margin-bottom:10px;
+				@include respond(mobile){
+					margin-bottom:0px;
+				}
 			}
 			
 		}

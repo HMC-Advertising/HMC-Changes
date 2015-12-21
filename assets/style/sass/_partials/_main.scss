@@ -1,19 +1,32 @@
+
+
 .Winter{
 	&.landingpage{
-		
+		 .header, .bypass, .lodging, .seize{
+			padding-top:80px;
+			padding-bottom:80px;
+			@include respond(mobile){
+				padding-top:50px;
+			padding-bottom:50px;
+			}
+			@include respond(wide){
+				padding-top:50px;
+			padding-bottom:50px;
+			}
+		}
 		.header{
 			height:670px;
 			background-size: cover !important;
 
 			@include respond(mobile){
-				background-position:center !important;
+				background-position:center ;
 				height:300px;
 			}
 			@include respond(tablet){
-				background-position:center !important;
+				background-position:center ;
 			}
 			@include respond(wide){
-				background-position:center !important;
+				background-position:center ;
 				height:300px;
 			}
 
@@ -56,8 +69,6 @@
 						//text-shadow: $b 1px 1px 1px;
 						line-height: 20px;
 					}
-
-
 			}
 
 		}
@@ -69,33 +80,12 @@
 			color:$w;
 			height:auto;
 			overflow: auto;
+			font-family: $mainFont;
 			border:{
 				bottom:thick solid $w;
 			}
-			padding:{
-				top:50px;
-				bottom:50px;
-			}
-			@include respond(mobile){
-						padding-top:30px;
-						padding-bottom:30px;
-					}
 			p{
-				text:{
-					align:center;
-					transform: uppercase;
-				}
-				font:{
-					size:20px;
-					weight:400;
-					family:$mainFont;
-				}
-				@include respond(mobile){
-						font-size: 16px;
-					}
-				@include respond(wide){
-						font-size: 16px;
-					}	
+				margin-bottom: 35px;
 			}
 		}
 		.triangle{
@@ -103,6 +93,13 @@
 			margin-top:-6px;
 			height:auto;
 			overflow: auto;
+			padding-top:0;
+			padding-bottom:0;
+			@include respond(mobile){
+				padding-top:00px;
+				padding-bottom:0px;
+			}
+
 			img{
 				margin:auto;
 			}
@@ -113,93 +110,44 @@
 		.bypass{
 			//margin-top:-33px;
 			
-			height:690px;
-			padding:{
-				top:50px;
-				bottom:50px;
+			height:670px;
+			
+			@include respond(tablet){
+				height:auto;
 			}
 			@include respond(mobile){
-				height:auto;
-				padding:{
-					top:20px;
-					bottom:50px;
-				}
-			}
-			@include respond(tablet){
 				height:auto;
 			}
 			@include respond(wide){
 				height:auto;
 				//margin-bottom: -40px;
 			}
-			.col-lg-12{
-				margin-top:-5px;
-				@include respond(mobile){
-					margin-top: 10px;
-				}
-
-			}
-			h1{
-				@include respond(mobile){
-					margin-top: 0px;
-				}
-				@include respond(wide){
-					margin-top: 0px;
-				}
-			}
-			
-			p{
-				text-align:center;
-				font:{
-					size:25px;
-					weight:400;
-					family:$mainFont;
-				}
-				padding:{
-					top:20px;
-				}
-				margin:{
-					bottom:50px;
-				}
-				@include respond(mobile){
-					font-size:16px;
-					padding:{
-						top:0px;
-					}
-					margin:{
-						bottom:20px;
-					}
-				}
-				@include respond(wide){
-					font-size:16px;
-					padding:{
-						top:0px;
-					}
-					margin:{
-						bottom:20px;
-					}
-				}
+			img{
+				margin-bottom: 20px;
 			}
 
 		}
 		.seize{
+			h1{
+				color:$red;
+				margin-top: 50px;
+				@include respond(mobile){
+					margin-top: 0;
+				}
+				@include respond(wide){
+					margin-top: 0;
+				}
+			}
 			
-		
 			height:670px;
 			
 			margin-top:-32px;
-			padding:{
-				top:50px;
-				bottom:50px;
-			}
+			
 			@include respond(mobile){
 				margin:{
 					top:-2px;
 				}
-				padding:{
-					top:20px;
-					bottom:20px;
-				}
+				
 			}
 			@include respond(mobile){
 				height:auto;
@@ -211,94 +159,26 @@
 				height:auto;
 				//margin-bottom: -40px;
 			}
-			.col-lg-12{
-				margin-top:40px;
-				@include respond(mobile){
-					margin-top: 0px;
-				}
-				@include respond(wide){
-					margin-top: 0px;
-				}
-				@include respond(tablet){
-					margin-top: 10px;
-				}
-
-			}
-			h1{
-				font:{
-					family:$mainFont;
-					
-					weight:400;
-				}
-				color:$red;
-				margin:{
-					bottom:20px;
-				}
-				
-			}
-			h2{
-				font:{
-					family:$mainFont;
-					weight:400; 
-				}
-			}
-			p{
-				text-align:center;
-				font:{
-					size:30px;
-					weight:400;
-					family:$mainFont;
-				}
-				padding:{
-					top:10px;
-				}
-				margin:{
-					bottom:50px;
-				}
-				@include respond(mobile){
-						margin-top: 0px;
-					margin:{
-						bottom:20px;
-					}
-				}
-				@include respond(mobile){
-					font-size:16px;
-				}
-				@include respond(wide){
-						margin-top: 0px;
-					margin:{
-						bottom:20px;
-					}
-				}
-				@include respond(wide){
-					font-size:16px;
-				}
-				&.note{
-					font-size: 16px;
-					margin-top: 150px;
-					@include respond(mobile){
-						font-size:12px;
-						margin-top:25px;
-						line-height: 15px;
-						margin-bottom:20px;
-					}
-					@include respond(wide){
-						font-size:12px;
-						margin-top:25px;
-						line-height: 15px;
-						margin-bottom:20px;
-					}
-				}
-			}
 		}
 		.lodging{ 
-			
+			h1{
+				margin-top:45px;
+				@include respond(mobile){
+					margin-top:0;
+				//margin-bottom: -40px;
+				}
+				@include respond(wide){
+					margin-top:0;
+					//margin-bottom: -40px;
+				}
+				@include respond(tablet){
+					margin-top:0;
+					//margin-bottom: -40px;
+				}
+			}
 			height:570px;
 			margin-top: -10px;
-			padding:{
-				top:50px;
-				bottom:50px;
-			}
+			
 			//margin-bottom:-90px;
 			@include respond(mobile){
 				height:auto;
@@ -308,79 +188,20 @@
 				height:auto;
 				//margin-bottom: -40px;
 			}
-			.col-lg-12{
-				margin-top:20px;
-				@include respond(mobile){ 
-					margin-top:0px;
-				}
-				@include respond(wide){ 
-					margin-top:0px;
-				}
-			}
-			h1{
-				@include respond(mobile){
-					margin-top: 0;
-					//margin-bottom: -40px;
-				}
-				@include respond(wide){
-					margin-top: 0;
-					//margin-bottom: -40px;
-				}
-				font:{
-					family:$mainFont;
-					
-					weight:400;
-				}
-				color:$w;
-				margin:{
-					bottom:20px;
-				}
-				
-			}
-			h2{
-				font:{
-					family:$mainFont;
-					weight:400; 
-				}
-			}
-			p{
-				text-align:center;
-				font:{
-					size:28px;
-					weight:400;
-				 	family:$mainFont;
-				}
-				margin-bottom: 40px;
-				@include respond(mobile){
-					font-size: 16px;
-				}
-				@include respond(wide){
-					font-size: 16px;
-				}
+			@include respond(tablet){
+				height:auto;
+				//margin-bottom: -40px;
 			}
 		}
 	}
-	.note{
-		font-size: 16px;
-		margin-top: 150px;
-		@include respond(mobile){
-			font-size:12px;
-			margin-top:25px;
-			line-height: 15px;
-			margin-bottom:20px;
-		}
-		@include respond(wide){
-			font-size:12px;
-			margin-top:25px;
-			line-height: 15px;
-			margin-bottom:20px;
-		}
-	}
+	
 	.r{
 		display: block;
 		height:auto;
 		clear:both;
-		overflow: auto;
+		overflow-x: auto;
+	    width: 100%;
+	    overflow-y: hidden;
 	}
 	@include respond(mobile){
 		.container{
@@ -428,6 +249,7 @@
 			weight:400;
 		}
 		line-height:70px;
+
 		
 		@include respond(mobile){
 			font-size:30px;
@@ -448,5 +270,34 @@
 	}
 	.right{
 		text-align:right;
+	}
+	p{
+		text-align:center;
+		margin-bottom:30px;
+				margin-top:30px;
+				font-family: $mainFont;
+				font-size: 30px;
+				@include respond(mobile){
+				font-size: 16px;
+			}
+			@include respond(wide){
+					font-size: 16px;
+			}
+		&.note{
+			font-size: 16px;
+			margin-top: 90px;
+			@include respond(mobile){
+				font-size:12px;
+				margin-top:25px;
+				line-height: 15px;
+				margin-bottom:20px;
+			}
+			@include respond(wide){
+				font-size:12px;
+				margin-top:25px;
+				line-height: 15px;
+				margin-bottom:20px;
+			}
+		}
 	}
 }

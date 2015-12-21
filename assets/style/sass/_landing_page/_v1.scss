@@ -2,17 +2,28 @@
 	&.landingpage{
 		.header{
 			background:url("../../img/tempv1/headerSnow.png")no-repeat;
+
 			
-			color:$dred;
+			h1{
+				color:$red;
+			}
+			h2{
+				color:$dg;
+			}
 			margin:{
 				top:-44px;
 			}
+			@include respond(tablet){
+				background-position: center;
+			}
 			@include respond(mobile){
+				background-position: center;
 				margin:{
 					top:0px;
 				}
 			}
 			@include respond(wide){
+					background-position: center;
 				margin:{
 					top:0px;
 				}
@@ -21,11 +32,7 @@
 		}
 		
 		.bypass{
-			a{
-				@include respond(tablet){
-					margin-bottom: 30px;
-				}
-			}
+			
 			margin-top:-33px;
 			@include respond(mobile){
 				margin-top:-12px;
@@ -59,8 +66,10 @@
 			@include respond(tablet){
 				margin-top: 0px !important;
 			}
+			margin-top:0 !important;
 		}
 		.lodging{ 
+			
 			text-align:center;
 			color:$w;
 			background:url("../../img/tempv1/divLodging.png");
