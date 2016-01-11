@@ -1,4 +1,4 @@
-/* line 13, ../sass/_partials/_bits.scss */
+/* line 14, ../sass/_partials/_bits.scss */
 .embed-responsive {
   position: relative;
   display: block;
@@ -7,7 +7,7 @@
   overflow: hidden;
   padding-bottom: 56.25%;
 }
-/* line 20, ../sass/_partials/_bits.scss */
+/* line 21, ../sass/_partials/_bits.scss */
 .embed-responsive iframe {
   position: absolute;
   top: 0;
@@ -19,6 +19,14 @@
 }
 
 /* line 31, ../sass/_partials/_bits.scss */
+.button {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+/* line 33, ../sass/_partials/_bits.scss */
 .button.red {
   color: #ffffff;
   background: #bd1821;
@@ -26,7 +34,7 @@
   padding: 10px 20px;
 }
 @media only screen and (max-width: 479px) {
-  /* line 31, ../sass/_partials/_bits.scss */
+  /* line 33, ../sass/_partials/_bits.scss */
   .button.red {
     display: block;
     font-size: 15px;
@@ -34,20 +42,38 @@
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 31, ../sass/_partials/_bits.scss */
+  /* line 33, ../sass/_partials/_bits.scss */
   .button.red {
     display: block;
     font-size: 15px;
     text-align: center;
   }
 }
-/* line 48, ../sass/_partials/_bits.scss */
+/* line 50, ../sass/_partials/_bits.scss */
 .button.red:hover {
   background: #ffffff;
   color: #bd1821 !important;
 }
+/* line 55, ../sass/_partials/_bits.scss */
+.button.abypass {
+  background: #631d1b !important;
+  color: #ffffff !important;
+  padding: 10px 20px !important;
+  clear: both !important;
+  display: block !important;
+  text-decoration: none !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+}
+/* line 66, ../sass/_partials/_bits.scss */
+.button.abypass:hover {
+  background: #ffffff;
+  color: #631d1b;
+}
 
-/* line 58, ../sass/_partials/_bits.scss */
+/* line 76, ../sass/_partials/_bits.scss */
 .photo-block {
   max-height: 1100px;
 }

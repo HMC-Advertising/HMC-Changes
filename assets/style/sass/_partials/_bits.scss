@@ -4,8 +4,9 @@ $lg: #ccc;
 $dg: #333;
 $b: #000;
 
-$dred: #6b3638;
+$dred: #6b3638; 
 $red: #bd1821;
+$bypassRed : #631d1b;
 
 $mainFont : 'MuseoSlab500',"HelveticaNeue-CondensedBold","FranklinGothicFSDemiCondensed",Arial,sans-serif;
 
@@ -28,6 +29,7 @@ $mainFont : 'MuseoSlab500',"HelveticaNeue-CondensedBold","FranklinGothicFSDemiCo
   }
 }
 .button{
+	@include transition(1s);
 	&.red{
 		color:$w;
 		background:$red;
@@ -50,6 +52,22 @@ $mainFont : 'MuseoSlab500',"HelveticaNeue-CondensedBold","FranklinGothicFSDemiCo
 			color:$red !important;
 		}
 	}
+	&.abypass{
+		background: $bypassRed !important;
+	    color: $w !important;
+	    padding: 10px 20px !important;
+	    clear: both !important;
+	    display: block !important;
+	    text-decoration: none !important;
+	    font-weight: 800 !important;
+	    text-transform: uppercase !important;
+	    text-align: center !important;
+	    border-radius: 5px !important;
+	    &:hover{
+	        background:$w;
+	        color:$bypassRed;
+	    }
+	}     
 }
 
 footer{
