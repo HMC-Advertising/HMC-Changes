@@ -59,7 +59,7 @@
 				(function($){
 					$('#".$id."').on('click', function() {
 						var href = $(this).attr('href');
-		  				_gaq.push(['".$category."', '".$action."', '".$label."', href]);
+		  				_gaq.push(['".$category."._trackEvent', '".$action."', '".$label."', href]);
 					});
 				}(jQuery))
 			</script>	
