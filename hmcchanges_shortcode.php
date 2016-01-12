@@ -20,6 +20,7 @@
 					$('#purchase1').on('click', function() {
 						var href = $(this).attr('href');
 		  				_gaq.push(['_trackEvent', 'Purchase_Button1', 'Clicked', href]);
+
 					});
 					$('#purchase2').on('click', function() {
 						var href = $(this).attr('href');
@@ -59,7 +60,7 @@
 				(function($){
 					$('#".$id."').on('click', function() {
 						var href = $(this).attr('href');
-		  				_gaq.push(['".$category."._trackEvent', '".$action."', '".$label."', href]);
+		  				_gaq.push(['_trackEvent', '".$category."', '".$action."', '".$label."']);
 					});
 				}(jQuery))
 			</script>	
@@ -70,5 +71,9 @@
 	}
 
 	add_shortcode("tracking", "tracking");
+
+	
+
+
 
 ?>
