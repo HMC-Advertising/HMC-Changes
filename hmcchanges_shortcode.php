@@ -57,7 +57,7 @@
 		$output .= "
 			<script type='text/javascript'>
 				(function($){
-					$('".$id."').on('click', function() {
+					$('#".$id."').on('click', function() {
 						var href = $(this).attr('href');
 		  				_gaq.push(['".$category."', '".$action."', '".$label."', href]);
 					});
